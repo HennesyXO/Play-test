@@ -1,0 +1,12 @@
+.header-middle {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 15px;
+
+  &__title {
+    width: 300px;
+    color: $alt-color;
+    font-size: 18px;
+    margin: 0;
+  }
+}

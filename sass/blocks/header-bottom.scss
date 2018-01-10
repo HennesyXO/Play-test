@@ -1,0 +1,8 @@
+.header-bottom {
+  &__slider {
+    background: #eeeeee url("../img/slider.png") no-repeat;
+    background-size: cover;
+    min-height: 225px;
+    margin-bottom: 5px;
+  }
+}

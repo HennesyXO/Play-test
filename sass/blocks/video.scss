@@ -1,0 +1,36 @@
+.video {
+  width: 515px;
+  margin-right: 15px;
+
+  &__header {
+    margin-top: 0;
+  }
+
+  &__header span {
+    color: #a6001c;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #999a9a;
+    color: $sec-color;
+    font-size: 11px;
+    padding: 5px;
+    margin: 0;
+  }
+
+  &__btn span{
+    display: inline-block;
+  }
+}
+
+.video img {
+  margin: 0;
+}
+
+iframe {
+  display: block;
+}

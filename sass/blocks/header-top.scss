@@ -1,0 +1,27 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c4c4c4;
+  color: #F0F0F0;
+  font-size: 14px;
+  padding: 0 20px;
+
+  &__date {
+    max-width: 130px;
+    font-weight: bold;
+  }
+
+  &__search input {
+    margin: 5px 0;
+    width: 135px;
+    padding-left: 5px;
+  }
+}
+
+.header-top p {
+    margin: 12px 0;
+}
+
+.hello-username {
+  max-width: 280px;
+}
